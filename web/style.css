@@ -1,0 +1,49 @@
+*
+{
+    margin: 0;
+}
+
+html
+{
+	overflow-x:hidden;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+.block
+{
+	position: relative;
+left: 8%;
+top: 6%;
+width: 30%;
+height: 20%;
+display: inline-block;
+margin-right: 10%;
+margin-bottom: 3%;
+}
+
+.block img
+{
+    position: inherit;
+    width: 60%;
+}
+
+
+.top
+{
+    position: absolute;
+    height: 18%;
+    width: 100%;
+    background-color: #ffc723;
+}
+
+.main
+{
+    position: absolute;
+    top: 20%;
+
+}
