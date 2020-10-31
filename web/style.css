@@ -25,7 +25,6 @@ a
     left: 5%;
     top: 220px;
 
-    background: #C4C4C4;
 display: inline-block;
 margin-right: 14px;
 margin-bottom: 3%;
@@ -215,3 +214,22 @@ li
 }
 
 
+.rekn
+{
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+
+.rekn p
+{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height */
+
+
+    color: #000000;
+}

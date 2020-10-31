@@ -15,7 +15,7 @@
     <ul>
         <li><a href="index.php">Главная</a></li>
         <li><a href="afisha.php">Афиша</a></li>
-        <li><a href="#">Рекомендации</a></li>
+        <li><a href="rek.php">Рекомендации</a></li>
     </ul>
 
 

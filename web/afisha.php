@@ -15,7 +15,7 @@
     <ul>
         <li><a href="index.php">Главная</a></li>
         <li><a href="afisha.php">Афиша</a></li>
-        <li><a href="#">Рекомендации</a></li>
+        <li><a href="rek.php">Рекомендации</a></li>
     </ul>
 
 
@@ -61,13 +61,19 @@
 
 
     <?php
+    include "bd.php";
+
     for ($i = 1; $i <= 5; $i++) {
+
+        $sql = mysqli_query($db, "SELECT TEXT FROM news WHERE ID=$i");
+        $result = mysqli_fetch_array($sql);
+
+
         echo ('<div class="block"><img src="img/news/'.$i.'.jpeg"> 
-
-<p>Выставка</p>
-
+<p>'.$result[0].'</p>
 </div>');
     }
+
     ?>
 
 
