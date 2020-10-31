@@ -6,44 +6,212 @@
 html
 {
 	overflow-x:hidden;
+    background: white;
 }
 
 a
 {
     text-decoration: none;
+    color: #000000;
 }
 
 
 .block
 {
 	position: relative;
-left: 8%;
-top: 6%;
-width: 30%;
-height: 20%;
+
+    width: 344px;
+    height: 360px;
+    left: 5%;
+    top: 220px;
+
+    background: #C4C4C4;
 display: inline-block;
-margin-right: 10%;
+margin-right: 14px;
 margin-bottom: 3%;
+    vertical-align: top;
+
+    transition: 0.4s;
 }
 
 .block img
 {
     position: inherit;
-    width: 60%;
+    width: 100%;
+    height: 270px;
+    display: block;
+    /*margin: auto;*/
+    /*margin-top: 10px;*/
+}
+
+
+
+.block:hover
+{
+    transform: scale(1.1, 1.1);
+}
+
+
+
+.block p
+{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 52px;
+
+    position: inherit;
+    top: 10px;
+    color: #000000;
 }
 
 
 .top
 {
-    position: absolute;
-    height: 18%;
+    position: relative;
+    height: 80px;
     width: 100%;
-    background-color: #ffc723;
+
 }
 
 .main
 {
-    position: absolute;
+    position: relative;
     top: 20%;
-
 }
+
+
+
+.filtr
+{
+    position: inherit;
+
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+
+
+    top: 26px;
+    left: 130px;
+
+    color: #000000;
+}
+
+
+
+.callend     /* Тут исправить надо будет */
+{
+    position: absolute;
+
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    margin-right: 56px;
+    top: 180px;
+    left: 130px;
+    display: inline-block;
+    color: #000000;
+}
+
+form
+{
+    position: inherit;
+    top: 60px;
+    left: 130px;
+}
+
+form p
+{
+    display: inline-block;
+
+
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #5F5F5F;
+    margin-right: 3%;
+}
+
+
+.logo
+{
+    position: absolute;
+    width: 59px;
+    height: 72.52px;
+    left: 136px;
+    top: 19px;
+    z-index: 2;
+}
+
+li
+{
+    position: relative;
+    left: 242px;
+    top: 22px;
+
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #000000;
+
+    display: inline;
+    margin-right: 120px;
+
+    list-style-type: none;
+}
+
+
+
+
+
+
+.lk
+{
+ position: inherit;
+    left: 1390px;
+    top: -70px;
+
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+
+
+.glav
+{
+    position: relative;
+    left: 150px;
+    top: 45px;
+}
+
+.glav img
+{
+    transition: 0.4s;
+    margin: 7px;
+    vertical-align: top;
+}
+
+.glav img:hover
+{
+    transform: scale(1.05, 1.05);
+}
+
+
