@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<RCC>
+    <qresource prefix="/">
+        <file alias="assets/img/user.svg">../assets/img/user.svg</file>
+        <file alias="assets/img/user64.png">../assets/img/user64.png</file>
+        <file alias="assets/dataset.db">../assets/dataset.db</file>
+        <file alias="assets/img/female.svg">../assets/img/female.svg</file>
+        <file alias="assets/img/group.svg">../assets/img/group.svg</file>
+        <file alias="assets/img/male.svg">../assets/img/male.svg</file>
+        <file alias="assets/img/vk.png">../assets/img/vk.png</file>
+        <file alias="assets/fonts/Play Bold.ttf">../assets/fonts/Play Bold.ttf</file>
+        <file alias="assets/fonts/Ubuntu-R.ttf">../assets/fonts/Ubuntu-R.ttf</file>
+        <file alias="assets/img/book.png">../assets/img/book.png</file>
+        <file alias="assets/img/event.png">../assets/img/event.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/img/user.svg</file>
+        <file>assets/img/user64.png</file>
+        <file>assets/dataset.db</file>
+        <file>assets/img/female.svg</file>
+        <file>assets/img/group.svg</file>
+        <file>assets/img/male.svg</file>
+        <file>assets/img/vk.png</file>
+        <file>assets/fonts/Play Bold.ttf</file>
+        <file>assets/fonts/Ubuntu-R.ttf</file>
+        <file>assets/img/book.png</file>
+        <file>assets/img/event.png</file>
+        <file>MapReducer.qml</file>
+        <file>MapStationItem.qml</file>
+    </qresource>
+</RCC>
